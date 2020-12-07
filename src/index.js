@@ -94,7 +94,7 @@ module.exports = ({
         }
 
         const filtered = filter ? await async.filter(items, filter) : items;
-        const procesed = preprocess ? await async.map(items, preprocess) : filtered;
+        const procesed = preprocess ? await async.map(filtered, preprocess) : filtered;
 
         console.log('items', items.length, procesed.length);
 

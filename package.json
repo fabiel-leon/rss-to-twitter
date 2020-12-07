@@ -10,7 +10,26 @@
     "type": "git",
     "url": "git+https://github.com/fabiel-leon/rss-to-twitter.git"
   },
-  "keywords": [],
+  "keywords": [
+    "rss",
+    "twitter post with image",
+    "twitter",
+    "cron",
+    "timezone",
+    "publish",
+    "messages",
+    "bot",
+    "filter",
+    "twitter bot",
+    "fabiel-leon",
+    "template",
+    "html",
+    "handlebars",
+    "async",
+    "promises",
+    "node-fetch",
+    "fetch"
+  ],
   "author": "Fabiel Leon <fabiel.leon.oliva@gmail.com>",
   "license": "ISC",
   "bugs": {
