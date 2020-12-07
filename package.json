@@ -1,0 +1,31 @@
+{
+  "name": "rss-to-twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiel-leon/rss-to-twitter.git"
+  },
+  "keywords": [],
+  "author": "Fabiel Leon <fabiel.leon.oliva@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiel-leon/rss-to-twitter/issues"
+  },
+  "homepage": "https://github.com/fabiel-leon/rss-to-twitter#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cron": "^1.8.2",
+    "handlebars": "^4.7.6",
+    "node-fetch": "^2.6.1",
+    "rss-rewriter": "^1.0.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
